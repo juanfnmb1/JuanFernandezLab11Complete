@@ -1,0 +1,32 @@
+@mixin gridStructure {
+  .grid {
+    //grid structure
+    display: grid;
+    text-align: $alignment;
+    grid-template-areas:
+      "rec2 sq2 sq2 sq1 sq1"
+      "rec2 rec1 rec1 sq1 sq1"
+      "rec2 sq4 sq3 . .";
+  }
+  .square1 {
+    //assigns grid-area name to each class, so that it can be referenced above
+    grid-area: sq1;
+  }
+  .rectangle1 {
+    grid-area: rec1;
+  }
+
+  .rectangle2 {
+    grid-area: rec2;
+  }
+
+  .square2 {
+    grid-area: sq2;
+  }
+  .square3 {
+    grid-area: sq3;
+  }
+  .square4 {
+    grid-area: sq4;
+  }
+}

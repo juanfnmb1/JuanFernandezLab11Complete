@@ -1,0 +1,19 @@
+@mixin docStyling {
+  .grid {
+    //general styling for grid and document
+    background-color: $gridBgc;
+    padding: $paddingAndGap;
+    grid-gap: $paddingAndGap;
+  }
+  .grid-item {
+    background-color: $gridItemBgc;
+    border: $borderStyle;
+  }
+  p {
+    font-family: $font;
+    font-size: $fontSize;
+  }
+  body {
+    background-color: $backgroundColor;
+  }
+}

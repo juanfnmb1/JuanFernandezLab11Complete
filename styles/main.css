@@ -1,0 +1,49 @@
+.grid {
+  display: grid;
+  text-align: center;
+  grid-template-areas: "rec2 sq2 sq2 sq1 sq1" "rec2 rec1 rec1 sq1 sq1" "rec2 sq4 sq3 . .";
+}
+
+.square1 {
+  grid-area: sq1;
+}
+
+.rectangle1 {
+  grid-area: rec1;
+}
+
+.rectangle2 {
+  grid-area: rec2;
+}
+
+.square2 {
+  grid-area: sq2;
+}
+
+.square3 {
+  grid-area: sq3;
+}
+
+.square4 {
+  grid-area: sq4;
+}
+
+.grid {
+  background-color: rgb(0, 12, 119);
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(110, 184, 253, 0.8);
+  border: 5px inset rgb(64, 230, 202);
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+body {
+  background-color: rgb(165, 194, 219);
+}/*# sourceMappingURL=main.css.map */

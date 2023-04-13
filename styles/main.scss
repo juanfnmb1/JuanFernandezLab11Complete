@@ -1,0 +1,5 @@
+@import "_variables"; //variables must be imported first
+@import "_bodyStyling"; //imports styling of document
+@import "_grid"; //imports grid structure
+@include gridStructure; //includes mixin
+@include docStyling; //includes mixin
